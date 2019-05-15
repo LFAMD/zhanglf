@@ -30,7 +30,7 @@ public class userController {
 
     @RequestMapping(value = {"/selectUser"})
     public user selectUser() {
-        user u = service.findUserById(123456);
+        //user u = service.findUserById(123456);
         return u;
     }
 
